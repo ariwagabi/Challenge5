@@ -1,0 +1,28 @@
+@media only screen and (max-width: 780px) and (min-width: 320px) {
+    body {
+        height: 100vh;
+        font-family: 'Kumbh Sans', sans-serif;
+        background-color: hsl(185, 75%, 39%);
+        background-image: 
+                        url(images/bg-pattern-top.svg),
+                        url(images/bg-pattern-bottom.svg);
+        background-position:  
+                        top -150px left -150px,
+                        bottom -150px right -150px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .content-box {
+        width: 80%;
+        display: block;
+        margin: 150px auto;
+    }
+
+    .item2 {
+        position: absolute;
+        z-index: 3;
+        left: 35%;
+        top: 100px;
+    }
+}
